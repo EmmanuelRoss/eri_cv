@@ -1,0 +1,547 @@
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#presentation{
+    padding: 200px 233px;
+
+    position: static;
+    width: 1366px;
+    height: 678.52px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#presentation .data{
+    /* Auto layout */
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 543px;
+    height: 352px;
+    left: 128px;
+    top: 151px;
+}
+
+#presentation .data #main-title{
+    /* Auto layout */
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 543px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+
+    margin: 16px 0px;
+}
+
+#presentation .data .text{
+    position: static;
+    width: 449px;
+    height: 52px;
+    left: 0px;
+    top: 50px;
+
+    /* Body 1 */
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+    letter-spacing: 0.005em;
+
+    margin: 16px 0px;
+}
+
+#presentation .data .icons{
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 224px;
+    height: 44px;
+    left: 0px;
+    top: 219px;
+
+    margin: 16px 0px;
+}
+
+/*.image{
+    position: absolute;
+    width: 500px;
+    height: 510px;
+}*/
+
+#presentation .image #moto{
+    position: absolute;
+    width: 500px;
+    height: 510px;
+    left: 786px;
+    top: 61px;
+    border-radius: 24px;
+}
+
+
+
+#coment{
+    padding: 200px 233px;
+
+    position: static;
+    width: 1366px;
+    height: 678.52px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 16px;   
+}
+
+#coment #participe{
+    width: 900px;
+    height: 111px;
+    left: 233px;
+    top: 200px;
+    font-family: Oxygen;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 55px;
+    align-self: stretch;
+    margin: 24px 0px;
+}
+
+
+/*SECCION PROYECTOS*/
+
+.title{
+    padding: 4px 8px;
+
+    position: static;
+    width: 335px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    color: white;
+    font-size: 34px;
+    line-height: 55px;
+    background: #310A90;
+    box-shadow: -4px 4px 0px #FFFFFF;
+}
+/*********************PROYECTO 1**************************************/
+#myProject{
+    flex-direction: row;
+    padding: 80px 113px 80px 128px;
+
+    position: static;
+    width: 1366px;
+    height: 552px;
+    left: 0px;
+    top: 678.52px;
+
+    order: 1;
+    flex-grow: 0;
+}
+
+#myProject .data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 449px;
+    height: 231px;
+    left: 128px;
+    top: 160px;
+
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+#myProject .data .title{
+    align-items: flex-start;
+    padding: 4px 8px;
+
+    position: static;
+    width: 335px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    margin: 16px 0px;
+}
+
+#myProject .data p{
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+
+    line-height: 26px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.actions{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    position: static;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;   
+}
+
+.verP{
+    position: static;
+    width: 168px;
+    height: 49px;
+    left: 0px;
+    top: 8px;
+
+    /* primary */
+    background: var(--primary);
+    font-size: 14px;
+    color: white;
+
+    /* primary */
+    border: 2px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.verC{
+    position: static;
+    width: 147px;
+    height: 49px;
+    left: 184px;
+    top: 8px;
+
+    /* primary */
+    border: 2px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    order: 1;
+}
+
+#myProject .actions{
+    padding: 8px 0px 0px;
+
+    width: 331px;
+    height: 57px;
+    left: 0px;
+    top: 174px;
+}
+
+#myProject .imge #imgProject{
+    position: absolute;
+    width: 500px;
+    height: 510px;
+    left: 601px;
+    top: 80px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+/************************CARD 1****************************/
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px;
+
+    position: static;
+    width: 1366px;
+    height: 549px;
+    left: 0px;
+    top: 1230.52px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 
+    0px 0px;
+
+}
+
+.coment{
+    /* Auto layout */
+    padding: 80px;
+
+    position: static;
+    width: 1132px;
+    height: 389px;
+    left: 117px;
+    top: 80px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 24px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.text-card{
+    width: 972px;
+    height: 166px;
+    left: 80px;
+    top: 80px;
+
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+
+    /* or 162% */
+    text-align: center;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.comentErika{
+    position: static;
+    width: 972px;
+    height: 39px;
+    left: 80px;
+    top: 270px;
+
+    /* Headline 5 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+
+    /* identical to box height, or 162% */
+    text-align: center;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+/******************************PROYECTO 2**********************************/
+
+#Ginger{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 128px;
+
+    position: static;
+    width: 1366px;
+    height: 788px;
+    left: 0px;
+    top: 1779.52px;
+
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#Ginger .data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 449px;
+    height: 231px;
+    left: 790px;
+    top: 278.5px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+
+#Ginger .data .title{
+    align-items: flex-start;
+    padding: 4px 8px;
+
+    position: static;
+    width: 335px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    margin: 16px 0px;
+}
+
+#Ginger .data p{
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+
+    line-height: 26px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+
+#Ginger .actions{
+    padding: 8px 0px 0px;
+
+    width: 331px;
+    height: 57px;
+    left: 0px;
+    top: 174px;
+}
+
+#Ginger .imge #imgProject2{
+    position: absolute;
+    width: 500px;
+    height: 510px;
+    left: 601px;
+    top: 80px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+/*****************************PROYECTO 3**********************************/
+
+#gym-in{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 274px 80px 128px;
+
+    position: static;
+    width: 1366px;
+    height: 696px;
+    left: 0px;
+    top: 3165.52px;
+
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#gym-in .data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 449px;
+    height: 205px;
+    left: 128px;
+    top: 245.5px;
+
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 231px;
+}
+
+#gym-in .data .title{
+    align-items: flex-start;
+    padding: 4px 8px;
+
+    position: static;
+    width: 335px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    margin: 16px 0px;
+}
+
+#gym-in .data p{
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 100px;
+
+    line-height: 26px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+
+#gym-in .actions{
+    padding: 8px 0px 0px;
+
+    width: 331px;
+    height: 57px;
+    left: 0px;
+    top: 174px;
+}
+
+#gym-in .imge #imgProject3{
+    position: absolute;
+    width: 400px;
+    height: 410px;
+    left: 401px;
+    top: 80px;
+
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

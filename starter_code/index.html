@@ -1,16 +1,184 @@
 <!DOCTYPE html>
-<!-- Change lang propertie -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Change document title  -->
-    <title>Document</title>
-    <!-- Here goes your styles -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
+    <link rel="stylesheet" href="./src/styles/main2.css">
+    <title>Portafolio</title>    
 </head>
 <body>
+    <p id="logoMain"><strong>LOGO</strong></p>
+    <header id="nave">
+        <!--<div id="wrapper">-->
+            
+            <nav>            
+                <ul>
+                    <li>HOLA</li>
+                    <li>PROYECTO</li>
+                    <li>HABLEMOS</li>
+                </ul>
+            </nav>
+        <!--</div>-->
+    </header><!--Header menú-->
+
+    <section id="presentation">
+        <div class="data">
+            <div id="main-title">
+                <h3>¡Hola a todos!</h3>
+                <h1>Soy Emmanuel</h1>
+            </div> <!--Caja para titulo-->          
+            <p class="text">Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas</p>
+            <div class=icons>
+                <ul>
+                    <li><img src="./src/img/icon-phone.png" alt="Ícono de teléfono"></li>
+                    <li><img src="./src/img/mail.png" alt="Ícono mail"></li>
+                    <li><img src="./src/img/icon-instagram.png" alt="Ícono Instagram"></li>
+                    <li><img src="./src/img/icon-twitter_squared.png" alt="Ícon de Twitter"></li>
+                </ul>           
+            </div><!--div para acomodar iconos(social)-->
+            <div class="actions">
+                <button>DESCARGAR CURRICULUM</button>
+            </div>            
+        </div>
+        <div class="image">
+            <img src="./src/img/maneMoto.jpg" id="moto" alt="Imagen de Emmanuel en moto">
+        </div>
+    </section><!--Sección Acerca de mí-->
+
+    <section id="coment">
+        <p id="participe">Participé en @GenerationMx y realicé proyectos como a continuación veremos.</p>
+        <p id="algunos"><strong>Aquí hay algunos que me gustaríacompartir.</strong></p>
+        <img src="./src/img/arrow-down.svg" id="flecha" alt="Flecha que simula bajar">
+    </section><!--Sección Participé-->
+
+    <section id="myProject">
+        <div class="data">
+            <div class="title">
+                <h2>mi_proyecto.com</h2>
+            </div>
+            <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habiliddades como desarrollador Front-End</p>
+            <div class="actions">
+                <button class="verP">VER PROYECTO</button>
+                <button class="verC">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div class="image">
+            <img id="imgProject" src="./src/img/Web-Design-PNG.png" alt="Imagen que muestra diseño de una aplicacioin web">
+        </div>
+    </section><!--Sección mi_proyecto-->
     
+    <section class="card">
+        <div class="coment">
+            <p class="text-card">
+                "JC ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo, Lo que nos hubiera llevado 6 meses
+                solo bis llevó 1,5 meses".
+            </p>
+            <p class="comentErika">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+        </div>
+    </section><!--Sección agradecimiento-->
+    
+    <section id="Ginger">
+        <div class="data">
+            <div class="title">
+                <h2>Ginger</h2>
+            </div>
+            <p>
+                Es el sitio oficial de Ginger, una pagina web que te ayuda a cambiar tu manera
+                de comer y de llevar a cabo una dieta adecuada a ti si quieres llevar una vida
+                más saludable.
+            </p>
+            <div class="actions">
+                <button class="verP">VER PROYECTO</button>
+                <button class="verC">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div class="image">
+            <img id="imgProject2" src="./src/img/ginger.png" alt="Imagen de aplicacio web Ginger" width="600px"
+            height= "490.65px">
+        </div> 
+    </section><!--Sección proyecto-->
+    
+    <section class="card">
+        <div class="coment">
+            <!--<img src="./src/img/yo.jpg" alt="Foto de Emmanuel">-->
+            <p class="text-card">"JC ha sido una persona que demuestra sus habilidades y ha crecido mucho".</p>
+            <p class="comentErika">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+        </div>
+    </section><!--Sección agradecimiento_2-->
+    
+    <section id="gym-in">
+        <div class="data">
+            <div class="title">
+                <h2>Gym-in instructon</h2>
+            </div>
+            <p>
+                Es el sitio oficial de Entrenamiento con Gym-in instructon. Revisa rutinas, en gym, en casa, alimentacion, 
+                programas de entrenamiento, suplementos y más.
+            </p>
+            <div class="actions">
+                <button class="verP">VER PROYECTO</button>
+                <button class="verC">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div class="image">
+            <img id="imgProject3" src="./src/img/gymtrainer.png" alt="Imagen de aplicacio web gym.in instructon">
+        </div> 
+    </section><!--Sección proyecto-->
+    
+    
+    <section class="card">
+        <div class="coment">
+            <!--<img src="./src/img/yoyo.jpeg" alt="Foto de Emmanuel 2">-->
+            <p class="text-card">
+                "Por primera vez en la historia de nuestra emoresa, aparecimos en todas las 
+                plataformas en las que trabajamos".
+            </p>
+            <p class="comentErika">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+        </div>
+    </section><!--Sección primeraVez-->
+    
+    <!--<section id="form">
+        <div class="data">
+            <div class="title">
+                <h2>HABLEMOS</h2>
+            </div>
+            <p id="text-form">
+                Si esta interesado en trabajar conmigo en su próximo proyecto,
+                no dude en ponerse en contacto conmigo.
+            </p>
+        </div>
+        <form id="formulary">
+            <input type="text" value="Nombre completo">
+            <textarea>
+                Emmanuel
+            </textarea>
+            <input type="text" value="Correo electrónico">
+            <textarea>
+                emmanuelrosshz@gmail.com
+            </textarea>
+            <input type="text" value="Mensaje">
+            <li class="button">
+                <button type="submit">ENVIAR MENSAJE</button>
+            </li>
+        </form>
+    </section><!--Formulario-->
+    
+    <footer>
+        <p class="logo">LOGO</p>
+        <p id="amor">Hecho con <span>🖤 </span>de ERS Copyright 2022 - Todos los derechos reservados</p>
+        <div class=icons>
+            <ul>
+                <li><img src="./src/img/icon-phone.png" alt="Ícono de teléfono"></li>
+                <li><img src="./src/img/mail.png" alt="Ícono mail"></li>
+                <li><img src="./src/img/icon-instagram.png" alt="Ícono Instagram"></li>
+                <li><img src="./src/img/icon-twitter_squared.png" alt="Ícon de Twitter"></li>
+            </ul>           
+        </div>
+    </footer><!--Pie de página-->
 </body>
-</html>l
+</html>
